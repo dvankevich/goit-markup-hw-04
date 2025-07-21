@@ -131,6 +131,7 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
 }
+
 .nav-link-active {
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -159,10 +160,8 @@ img {
 }
 
 .hero {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
     url(../images/hero-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -417,6 +416,7 @@ img {
   position: relative;
   overflow: hidden;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -444,6 +444,7 @@ img {
   display: flex;
   align-items: baseline;
 }
+
 .footer-class-item {
   margin-right: 120px;
   gap: 16px;
@@ -465,7 +466,7 @@ img {
 
 .f-sm-link-list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   align-items: center;
   justify-content: center;
 }
